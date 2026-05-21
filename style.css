@@ -1,0 +1,101 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  color: #222;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 48px 40px;
+  max-width: 420px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #222;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  letter-spacing: 1px;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 6px;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.bio {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 24px;
+}
+
+.divider {
+  width: 40px;
+  height: 2px;
+  background: #222;
+  margin: 0 auto 24px;
+  border-radius: 2px;
+}
+
+.skills {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  font-size: 0.9rem;
+  background: #f5f5f5;
+  padding: 6px 14px;
+  border-radius: 999px;
+  color: #444;
+}
+
+.contact {
+  display: inline-block;
+  padding: 12px 32px;
+  background: #222;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.contact:hover {
+  background: #444;
+}
